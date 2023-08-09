@@ -5,6 +5,8 @@ extends Node3D
 @onready var dropdown = $CanvasLayer/MainMenu/MarginContainer/VBoxContainer/OptionButton
 
 const Player = preload("res://Scenes/player.tscn")
+const OtherPlayer = preload("res://Scenes/otherPlayer.tscn")
+#const Player = preload("res://ninja.tscn")
 const PORT = 9999
 var enet_peer = ENetMultiplayerPeer.new()
 
@@ -30,11 +32,12 @@ func _on_host_button_pressed():
 func _on_join_button_pressed():
 	main_menu.hide()
 	enet_peer.create_client("localhost", PORT)
-	#enet_peer.create_client(address_entry.text, PORT)
+	enet_peer.create_client(address_entry.text, PORT)
 	multiplayer.multiplayer_peer = enet_peer
 
 func add_player(peer_id):
 	var player = Player.instantiate()
+	#var player = OtherPlayer.instantiate()
 	player.name = str(peer_id)
 	add_child(player)
 	

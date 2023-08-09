@@ -1,11 +1,12 @@
+CharacterBody3D
+Camera3D
+CollisionShape3D
 Control
 ProgressBar
 RayCast3D
 TextureRect
 GPUParticles3D
 CanvasLayer
-CharacterBody3D
 MeshInstance3D
 OptionButton
-CollisionShape3D
 CollisionPolygon3D

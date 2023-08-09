@@ -3,14 +3,12 @@
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_r4w2i"]
 resource_name = "sleeve_col"
 vertex_color_use_as_albedo = true
-albedo_color = Color(1, 1, 1, 1)
 metallic = 0.4
 roughness = 0.272166
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_mas1w"]
 resource_name = "glove_col"
 vertex_color_use_as_albedo = true
-albedo_color = Color(1, 1, 1, 1)
 metallic = 0.4
 roughness = 0.272166
 
@@ -18,7 +16,6 @@ roughness = 0.272166
 resource_name = "alpha_col"
 transparency = 4
 vertex_color_use_as_albedo = true
-albedo_color = Color(1, 1, 1, 1)
 metallic = 0.4
 roughness = 0.272166
 
@@ -26,7 +23,6 @@ roughness = 0.272166
 resource_name = "digit_anim"
 transparency = 4
 vertex_color_use_as_albedo = true
-albedo_color = Color(1, 1, 1, 1)
 metallic = 0.4
 roughness = 0.272166
 

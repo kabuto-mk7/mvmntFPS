@@ -1,7 +1,11 @@
-res://Scenes/player.tscn
-res://usp.tscn
-res://Scripts/Player.gd
+res://h2.tres
+res://usp.tres
 res://Scenes/World.tscn
-res://animations/source/usp/source/uspNew.tscn
-res://Scenes/VelocityCounter.gd
+res://ninja.tscn
+res://Scripts/Player.gd
+res://Scenes/player.tscn
+res://wallRunner.tscn
 res://Scenes/World.gd
+res://Scripts/ninja.gd
+res://usp.tscn
+res://Scenes/otherPlayer.tscn
