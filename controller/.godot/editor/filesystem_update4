@@ -1,0 +1,7 @@
+res://Scenes/player.tscn
+res://usp.tscn
+res://Scripts/Player.gd
+res://Scenes/World.tscn
+res://animations/source/usp/source/uspNew.tscn
+res://Scenes/VelocityCounter.gd
+res://Scenes/World.gd

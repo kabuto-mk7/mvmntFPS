@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://csguma3kpl0gd"]
+
+[ext_resource type="PackedScene" uid="uid://kbwjuejfd6ma" path="res://Models/Mio.fbx" id="1_h5lls"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="Mio" parent="." instance=ExtResource("1_h5lls")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0844257, 0, 0.00557661)

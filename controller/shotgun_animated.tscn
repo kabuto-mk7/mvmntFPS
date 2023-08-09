@@ -1,0 +1,58 @@
+[gd_scene load_steps=2 format=3 uid="uid://jj1c3wukpue6"]
+
+[ext_resource type="PackedScene" uid="uid://duyb4cc6w6ug" path="res://animations/shotgun_animated.glb" id="1_8wh0l"]
+
+[node name="shotgun_animated" instance=ExtResource("1_8wh0l")]
+
+[node name="Skeleton3D" parent="Sketchfab_model/8bdf8e2acc094814968f9aed4ca2f36e_fbx/Object_2/RootNode/Object_4" index="0"]
+bones/1/position = Vector3(18.4097, 10.7203, -43.9765)
+bones/1/rotation = Quaternion(-0.62462, 0.633242, 0.456961, 0.00642076)
+bones/2/rotation = Quaternion(0.493524, 0.385251, -0.0482967, 0.778257)
+bones/3/rotation = Quaternion(-0.102433, -0.120933, 6.95357e-11, 0.987362)
+bones/4/rotation = Quaternion(0.204422, 0.111607, -0.147768, 0.961208)
+bones/5/rotation = Quaternion(-0.0534692, 0.123394, -0.11088, 0.984693)
+bones/6/rotation = Quaternion(-0.0801855, -0.241646, -0.244568, 0.935609)
+bones/8/rotation = Quaternion(-0.0282488, 0.0166582, 0.427791, 0.903282)
+bones/9/rotation = Quaternion(0.0225934, -0.107109, 0.0663274, 0.991775)
+bones/10/rotation = Quaternion(-0.0335399, -0.0947714, -0.192388, 0.976156)
+bones/12/rotation = Quaternion(-0.00846479, -0.0358259, 0.474722, 0.879366)
+bones/13/rotation = Quaternion(-0.0431788, -0.0564895, -0.0252479, 0.997149)
+bones/14/rotation = Quaternion(0.036721, -0.325929, 0.0974435, 0.939642)
+bones/16/rotation = Quaternion(-0.437553, 0.891602, -0.0917927, -0.0718823)
+bones/17/rotation = Quaternion(0.00720937, 0.969375, -0.00831, 0.245339)
+bones/18/rotation = Quaternion(0.0501197, -0.173046, 0.0165895, 0.983498)
+bones/19/rotation = Quaternion(0.00892484, -0.194874, 0.0650776, 0.978626)
+bones/21/rotation = Quaternion(0.17338, 0.967346, 0.0279352, 0.182758)
+bones/22/rotation = Quaternion(-0.022522, -0.385565, -0.0793418, 0.918987)
+bones/23/rotation = Quaternion(0.0142946, -0.112597, -0.0304717, 0.99307)
+bones/25/position = Vector3(-8.36639, 7.95611, -58.0149)
+bones/25/rotation = Quaternion(0.571135, 0.772258, 0.275605, -0.0382658)
+bones/26/rotation = Quaternion(0.482963, -0.184125, -0.200659, 0.832215)
+bones/27/rotation = Quaternion(-0.0765713, -0.0179258, -3.00635e-11, 0.996903)
+bones/29/rotation = Quaternion(-0.282295, 0.153919, 0.0948409, 0.942138)
+bones/30/rotation = Quaternion(0.0293441, 0.390391, 0.18251, 0.9019)
+bones/32/rotation = Quaternion(-0.0335582, -0.0667512, -0.398761, 0.914006)
+bones/33/rotation = Quaternion(-0.0645637, 0.112823, -0.00449146, 0.991505)
+bones/34/rotation = Quaternion(0.0176908, 0.0479631, -0.00450786, 0.998682)
+bones/38/rotation = Quaternion(-0.0115186, 0.471808, -0.00250059, 0.881622)
+bones/42/rotation = Quaternion(0.0258614, 0.562997, -0.00723859, 0.826023)
+bones/43/rotation = Quaternion(0.00317265, 0.290139, 0.000198802, 0.956979)
+bones/47/rotation = Quaternion(0.0249659, 0.267041, -0.00692065, 0.963337)
+
+[node name="shotgun" parent="Sketchfab_model/8bdf8e2acc094814968f9aed4ca2f36e_fbx/Object_2/RootNode/Object_4" index="2"]
+transform = Transform3D(0.959284, -0.260429, 0.109321, 0.248731, 0.962319, 0.109883, -0.133819, -0.0782178, 0.987914, -1.62747, 8.21748, 4.70795)
+
+[node name="lid" parent="Sketchfab_model/8bdf8e2acc094814968f9aed4ca2f36e_fbx/Object_2/RootNode/Object_4/shotgun" index="1"]
+transform = Transform3D(1, -1.84314e-17, 3.19734e-35, 1.84314e-17, 1, -1.73472e-18, 0, 1.73472e-18, 1, 6.66134e-16, 5.32732, 18.0856)
+
+[node name="slug" parent="Sketchfab_model/8bdf8e2acc094814968f9aed4ca2f36e_fbx/Object_2/RootNode/Object_4/shotgun" index="3"]
+transform = Transform3D(1, 1.49186e-16, -2.77556e-17, -1.49186e-16, 1, 1.38778e-17, 2.77556e-17, -1.38778e-17, 1, 2.22045e-15, 6.49798, 23.8821)
+
+[node name="pump" parent="Sketchfab_model/8bdf8e2acc094814968f9aed4ca2f36e_fbx/Object_2/RootNode/Object_4/shotgun" index="4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.69309e-16, 6.65205, 43.8132)
+
+[node name="L_arm_Pole" parent="Sketchfab_model/8bdf8e2acc094814968f9aed4ca2f36e_fbx/Object_2/RootNode/Object_4" index="3"]
+transform = Transform3D(-0.213663, -0.937537, 0.274539, -0.970268, 0.236366, 0.0520566, -0.113697, -0.255254, -0.960166, 64.6631, -30.4877, -30.5319)
+
+[node name="R_arm_Pole" parent="Sketchfab_model/8bdf8e2acc094814968f9aed4ca2f36e_fbx/Object_2/RootNode/Object_4" index="4"]
+transform = Transform3D(-0.31116, 0.929846, -0.196384, 0.944911, 0.32479, 0.0406678, 0.101598, -0.172911, -0.979683, -32.4833, -29.5544, -22.1172)

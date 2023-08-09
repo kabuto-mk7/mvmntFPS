@@ -122,6 +122,14 @@ layout_mode = 2
 placeholder_text = "IP to Join"
 alignment = 1
 
+[node name="OptionButton" type="OptionButton" parent="CanvasLayer/MainMenu/MarginContainer/VBoxContainer"]
+layout_mode = 2
+item_count = 2
+popup/item_0/text = "theKILLER "
+popup/item_0/id = 0
+popup/item_1/text = "THE SKLAYER"
+popup/item_1/id = 1
+
 [node name="HUD" type="CanvasLayer" parent="."]
 
 [node name="ColorRect" type="ColorRect" parent="HUD"]
@@ -132,13 +140,17 @@ script = ExtResource("6_cdupb")
 
 [node name="FPS Counter" type="Label" parent="HUD/ColorRect"]
 layout_mode = 0
-offset_right = 73.0
-offset_bottom = 48.0
-theme_override_colors/font_color = Color(0, 0.968627, 0, 1)
+offset_left = 1.0
+offset_top = -1.0
+offset_right = 74.0
+offset_bottom = 47.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 20
 text = "100"
+horizontal_alignment = 1
+vertical_alignment = 1
 
 [node name="MultiplayerSpawner" type="MultiplayerSpawner" parent="."]
 _spawnable_scenes = PackedStringArray("res://Scenes/player.tscn")
