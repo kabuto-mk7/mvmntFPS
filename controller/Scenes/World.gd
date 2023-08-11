@@ -2,14 +2,10 @@ extends Node3D
 
 @onready var main_menu = $CanvasLayer/MainMenu
 @onready var address_entry = $CanvasLayer/MainMenu/MarginContainer/VBoxContainer/AddressEntry
-@onready var dropdown = $CanvasLayer/MainMenu/MarginContainer/VBoxContainer/OptionButton
 
 const Player = preload("res://Scenes/player.tscn")
 const PORT = 9999
 var enet_peer = ENetMultiplayerPeer.new()
-
-var players: Dictionary = {}
-
 
 func _unhandled_input(event):
 	if Input.is_action_just_pressed("quit"):
@@ -29,12 +25,12 @@ func _on_host_button_pressed():
 
 func _on_join_button_pressed():
 	main_menu.hide()
-	enet_peer.create_client("localhost", PORT)
-	#enet_peer.create_client(address_entry.text, PORT)
+	
+	enet_peer.create_client(address_entry.text, PORT)
 	multiplayer.multiplayer_peer = enet_peer
 
 func add_player(peer_id):
-	var player = Player.instantiate()
+	var player = Player.instantiate()]]]
 	player.name = str(peer_id)
 	add_child(player)
 	
